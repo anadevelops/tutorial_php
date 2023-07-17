@@ -8,7 +8,10 @@
 <body>
     
     <?php 
-        echo("Hello World");
+        $strig = "Lorem ipsum";
+        $integer = 25;
+        $float = 7.8;
+        $boolean = true;
     ?>
 
 </body>
