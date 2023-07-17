@@ -8,7 +8,13 @@
 <body>
     
     <?php 
-        echo("Hello World");
+        $characterName = "John";
+        $characterAge = 35; 
+        echo "There oce was a man named $characterName <br>";
+        echo "He was $characterAge years old <br>";
+        echo "He really liked the name $characterName <br>";
+        echo "But didn't like being $characterAge <br>";
+
     ?>
 
 </body>
