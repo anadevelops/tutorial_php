@@ -8,7 +8,19 @@
 <body>
     
     <?php 
-       
+
+       $string = "Funções de strings<br>";
+       echo strtolower($string);
+       echo strtoupper($string);
+       echo strlen($string);
+       echo $string[1];
+       $string[0] = "x";
+       echo $string;
+
+       $string = "Funções de strings<br>";
+       echo str_replace("Funções", "Functions", $string);
+       echo substr($string, 5, 7);
+
     ?>
 
 </body>
