@@ -8,6 +8,8 @@
 <body>
     
     <?php 
+
+        //Tipos de dados
         $strig = "Lorem ipsum";
         $integer = 25;
         $float = 7.8;
