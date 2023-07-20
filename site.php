@@ -9,6 +9,7 @@
     
     <?php 
 
+        //Funções utilizadas em strings
        $string = "Funções de strings<br>";
        echo strtolower($string);
        echo strtoupper($string);
@@ -17,6 +18,7 @@
        $string[0] = "x";
        echo $string;
 
+       //Função 'replace' em strings
        $string = "Funções de strings<br>";
        echo str_replace("Funções", "Functions", $string);
        echo substr($string, 5, 7);
