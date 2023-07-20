@@ -6,24 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <?php 
+    <!-- Manipulando inputs !-->
+    <form action="site.php" method="get">
+        Nome: <input type="text" name="name">
+        <hr>
+        Idade: <input type="number" name="age">
+        <input type="submit">
+    </form>
+    <br>
 
-        //Funções utilizadas em strings
-       $string = "Funções de strings<br>";
-       echo strtolower($string);
-       echo strtoupper($string);
-       echo strlen($string);
-       echo $string[1];
-       $string[0] = "x";
-       echo $string;
-
-       //Função 'replace' em strings
-       $string = "Funções de strings<br>";
-       echo str_replace("Funções", "Functions", $string);
-       echo substr($string, 5, 7);
-
-    ?>
-
+    Seu nome é <?php echo $_GET["name"];?>
+    <br>
+    Sua idade é <?php echo $_GET["age"];?> anos.
 </body>
 </html>
