@@ -8,6 +8,7 @@
 <body>
     
     <?php 
+        //Criando variáveis e "chamando" elas
         $characterName = "John";
         $characterAge = 35; 
         echo "There oce was a man named $characterName <br>";
