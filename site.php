@@ -6,9 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <!-- Guardando infromações em URLs, não é muito útil !-->
+    <form action="site.php" method="get">
+        Name: <input type="text" name="name"> <br>
+        <input type="submit">
+    </form>
+    <br> <br>
+
+
     <?php 
-       
+       echo $_GET["age"];
     ?>
 
 </body>
